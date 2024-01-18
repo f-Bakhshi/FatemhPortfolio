@@ -1,0 +1,46 @@
+.topFold{
+    height: 92vh;
+    overflow: hidden;
+}
+.tf-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 48px;
+}
+.tf-heading{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 72px;
+}
+.tf-desc{
+    font-size: 20px;
+    margin: 24px 0;
+}
+.tf-left-btns{
+    margin-top: 36px;
+    display: flex;
+}
+.tf-left-sec-btn{
+    margin-left: 36px;
+
+}
+.tf-left-infoStats{
+    display: flex;
+    padding: 48px 0 0;
+}
+.tf-infoItem{
+    margin-right: 24px;
+    flex-direction: column;
+}
+.tf-infoItem-count{
+    font-size: 36px;
+    font-weight: 600;
+}
+.tf-infoItem-lable{
+    font-size: 14px;
+    font-weight: 600;
+}
+.tf-right{
+
+}

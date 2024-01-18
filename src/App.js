@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import BrandIntegration from './components/BrandsIntegration';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import InfoSection from './components/InfoSection';
+import TopFold from './components/TopFold';
+import TrendingNfts from './components/TrendingNfts';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-width">
+      <Header/>
+      <TopFold/>
+      <BrandIntegration/>
+      <TrendingNfts/>
+      <InfoSection/>
+      <Footer/>
     </div>
   );
 }
